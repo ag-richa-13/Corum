@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+    <table id="question">
+        <th>Que</th>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+        <th>D</th>
+        <tr>
+            <td id="A_Q"></td>
+            <td id="A_A"></td>
+            <td id="A_B"></td>
+            <td id="A_C"></td>
+            <td id="A_D"></td>
+        </tr>
+        <tr>
+            <td id="B_Q"></td>
+            <td id="B_A"></td>
+            <td id="B_B"></td>
+            <td id="B_C"></td>
+            <td id="B_D"></td>
+        </tr>
+        <tr>
+            <td id="C_Q"></td>
+            <td id="C_A"></td>
+            <td id="C_B"></td>
+            <td id="C_C"></td>
+            <td id="C_D"></td>
+        </tr>
+        <tr>
+            <td id="D_Q"></td>
+            <td id="D_A"></td>
+            <td id="D_B"></td>
+            <td id="D_C"></td>
+            <td id="D_D"></td>
+        </tr>
+        <tr>
+            <td id="E_Q"></td>
+            <td id="E_A"></td>
+            <td id="E_B"></td>
+            <td id="E_C"></td>
+            <td id="E_D"></td>
+        </tr>
+    </table>
+    <script>
+        document.getElementById("A_Q").innerHTML = localStorage.getItem("A")
+        document.getElementById("A_A").innerHTML = localStorage.getItem("A_a");
+        document.getElementById("A_B").innerHTML = localStorage.getItem("A_b");
+        document.getElementById("A_C").innerHTML = localStorage.getItem("A_c");
+        document.getElementById("A_D").innerHTML = localStorage.getItem("A_d");
+
+        document.getElementById("B_Q").innerHTML = localStorage.getItem("B")
+        document.getElementById("B_A").innerHTML = localStorage.getItem("B_a");
+        document.getElementById("B_B").innerHTML = localStorage.getItem("B_b");
+        document.getElementById("B_C").innerHTML = localStorage.getItem("B_c");
+        document.getElementById("B_D").innerHTML = localStorage.getItem("B_d");
+
+        document.getElementById("C_Q").innerHTML = localStorage.getItem("C")
+        document.getElementById("C_A").innerHTML = localStorage.getItem("C_a");
+        document.getElementById("C_B").innerHTML = localStorage.getItem("C_b");
+        document.getElementById("C_C").innerHTML = localStorage.getItem("C_c");
+        document.getElementById("C_D").innerHTML = localStorage.getItem("C_d");
+
+        document.getElementById("D_Q").innerHTML = localStorage.getItem("D")
+        document.getElementById("D_A").innerHTML = localStorage.getItem("D_a");
+        document.getElementById("D_B").innerHTML = localStorage.getItem("D_b");
+        document.getElementById("D_C").innerHTML = localStorage.getItem("D_c");
+        document.getElementById("D_D").innerHTML = localStorage.getItem("D_d");
+
+        document.getElementById("E_Q").innerHTML = localStorage.getItem("E")
+        document.getElementById("E_A").innerHTML = localStorage.getItem("E_a");
+        document.getElementById("E_B").innerHTML = localStorage.getItem("E_b");
+        document.getElementById("E_C").innerHTML = localStorage.getItem("E_c");
+        document.getElementById("E_D").innerHTML = localStorage.getItem("E_d");
+    </script>
+</body>
+
+</html>
